@@ -1,4 +1,5 @@
 import '../styles/about.css';
+import profileimg from '../assets/profileImg/main-img-copy.jpg'
 
 export default function About() {
   return (
@@ -34,7 +35,7 @@ export default function About() {
         </p>
       </div>
       <div className="img-container">
-        <img src="src\assets\profileImg\main-img-copy.jpg" alt="Adamya Gupta" className="me-img" />
+        <img src={profileimg} alt="Adamya Gupta" className="me-img" />
       </div>
     </main>
   );
