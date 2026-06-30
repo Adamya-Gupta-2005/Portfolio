@@ -1,0 +1,44 @@
+.Edu {
+  padding-top: 120px;
+  max-width: 660px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  color: var(--font-sup);
+  gap: 30px;
+}
+
+.sec {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #dc45de;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.heading {
+  font-family: bebas neue;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.inst-name {
+  font-size: 0.88rem;
+  letter-spacing: 1px;
+}
+
+.year {
+  font-size: 0.88rem;
+  letter-spacing: 1px;
+}
+
+.class {
+  font-size: 0.88rem;
+  letter-spacing: 1px;
+}
+
+.marks {
+  font-size: 0.88rem;
+  letter-spacing: 1px;
+}

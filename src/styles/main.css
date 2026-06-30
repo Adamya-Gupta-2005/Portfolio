@@ -1,0 +1,114 @@
+:root {
+  --bg: #0d1117;
+  --seperator: linear-gradient(to right, rgb(157, 88, 186), transparent);
+  --font: #c9d1d9;
+  --focus: #bfc6cd;
+  --font-sup: #acb4bb;
+  --text: #8b949e;
+  --max-w: 760px;
+  --mid-w: 550px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Google Sans";
+}
+
+body {
+  background-color: var(--bg);
+}
+
+.header-section {
+  background-color: var(--bg);
+  border-bottom: 3px solid;
+  border-image: var(--seperator) 1;
+  color: var(--font);
+  width: 100%;
+  z-index: 99;
+  position: fixed;
+}
+
+.header-top {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 13px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: "Poppins";
+  font-size: 1.05rem;
+  color: #d436e2;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.i {
+  color: var(--text);
+  font-size: 1.05rem;
+  transition:
+    transform 0.3s ease,
+    color 0.3s;
+}
+
+.header-nav {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.header-nav a {
+  color: var(--text);
+  font-family: "poppins";
+  cursor: pointer;
+  padding: 3px 10px;
+  text-decoration: none;
+  border-bottom: 0.5px solid transparent;
+  border-radius: 25px;
+  transition:
+    border-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.focus {
+  font-size: 1.05rem;
+  color: var(--font);
+}
+
+.header-nav a.active {
+  color: var(--font);
+}
+
+.i:hover {
+  transform: scale(1.2);
+}
+
+.email:hover {
+  color: #c2d7fa;
+}
+
+.leetcode:hover {
+  color: #dedc45;
+}
+
+.git:hover {
+  color: #dc45de;
+}
+
+.link:hover {
+  color: #5961d8;
+}
+
+.header-nav a:hover {
+  color: var(--font);
+  border-bottom: 0.5px solid var(--font);
+}
