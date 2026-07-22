@@ -7,7 +7,7 @@ export const projects = [
         id: 2,
         title: 'ChatApp',
         image: chatApp,
-        description: 'Developed a full-stack real-time chat application supporting group chats, private password-protected rooms, direct messaging, live online/offline presence, and one-to-one video calling using Socket.IO and WebRTC with secure JWT authentication.',
+        description: 'Engineered a scalable real-time chat platform with secure JWT authentication, group and direct messaging, password-protected chat rooms, live user presence, and peer-to-peer video calling using Socket.IO and WebRTC.',
         techs: ["MERN", "Socket.IO", "WebRTC", "JWT", "MongoDB", "Axios"],
         github: "https://github.com/Adamya-Gupta-2005/ChatApp",
         live: "https://chat-app-phi-ten-ga4z8vshkm.vercel.app/"
