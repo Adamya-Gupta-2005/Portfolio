@@ -1,8 +1,18 @@
 import fitbalance from '../assets/projectImg/FitBalance.png'
 import mernauth from '../assets/projectImg/mernAuth.png'
 import chatApp from '../assets/projectImg/chatApp.png'
+import schemaForge from '../assets/projectImg/schemaForge.png'
 
 export const projects = [
+    {
+        id: 3,
+        title: 'SchemaForge',
+        image: schemaForge,
+        description: 'Built an AI-powered developer tool that converts plain English app descriptions into a complete backend scaffold — generating ER diagrams, Mongoose models, SQL statements, Express routes, and controllers through a 3-layer AI pipeline using Groq and Gemini APIs, with one-click ZIP download.',
+        techs: ["React", "Node.js", "Express", "Groq API", "Gemini API", "Mermaid.js", "JSZip"],
+        github: "https://github.com/Adamya-Gupta-2005/SchemaForge",
+        live: "https://schema-forge-puce.vercel.app/"
+    },
     {
         id: 2,
         title: 'ChatApp',
